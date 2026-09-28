@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-virtual-memory-tlb-page-table-skill"
+version = "1.0.0"
+description = "Virtual memory address translation simulator with Translation Lookaside Buffer (TLB) cache hit/miss tracking."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Operating System"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-virtual-memory-tlb-page-table-skill"
+Repository = "https://github.com/alphaparkinc/genpark-virtual-memory-tlb-page-table-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-virtual-memory-tlb-page-table-skill/issues"
