@@ -1,0 +1,6 @@
+# Smithery configuration for genpark-virtual-memory-tlb-page-table-skill
+name: genpark-virtual-memory-tlb-page-table-skill
+version: 1.0.0
+runtime: python
+entrypoint: mcp_server.py
+type: stdio
